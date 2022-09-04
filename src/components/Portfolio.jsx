@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import dhakaShop from "../assets/portfolio/dhakaShop.png";
 import crud from "../assets/portfolio/crud.png";
 import navbar from "../assets/portfolio/navbar.jpg";
@@ -7,32 +7,32 @@ import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
-    const portfolios = [
-        {
-          id: 1,
-          src: dhakaShop,
-        },
-        {
-          id: 2,
-          src: reactParallax,
-        },
-        {
-          id: 3,
-          src: navbar,
-        },
-        {
-          id: 4,
-          src: reactSmooth,
-        },
-        {
-          id: 5,
-          src: crud,
-        },
-        {
-          id: 6,
-          src: reactWeather,
-        },
-      ];
+  const portfolios = [
+    {
+      id: 1,
+      src: dhakaShop,
+    },
+    {
+      id: 2,
+      src: reactParallax,
+    },
+    {
+      id: 3,
+      src: navbar,
+    },
+    {
+      id: 4,
+      src: reactSmooth,
+    },
+    {
+      id: 5,
+      src: crud,
+    },
+    {
+      id: 6,
+      src: reactWeather,
+    },
+  ];
   return (
     <div
       name="portfolio"
@@ -67,7 +67,7 @@ const Portfolio = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;
