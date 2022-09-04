@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -9,66 +9,66 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import mysql from "../assets/mysql.png";
 const Experience = () => {
-    const techs = [
-        {
-          id: 1,
-          src: html,
-          title: "HTML",
-          style: "shadow-orange-500",
-        },
-        {
-          id: 2,
-          src: css,
-          title: "CSS",
-          style: "shadow-blue-500",
-        },
-        {
-          id: 3,
-          src: javascript,
-          title: "JavaScript",
-          style: "shadow-yellow-500",
-        },
-        {
-          id: 4,
-          src: reactImage,
-          title: "React",
-          style: "shadow-blue-600",
-        },
-        {
-          id: 5,
-          src: tailwind,
-          title: "Tailwind",
-          style: "shadow-sky-400",
-        },
-        {
-          id: 6,
-          src: python,
-          title: "Python",
-          style: "shadow-yellow-400",
-        },
-        {
-          id: 7,
-          src: django,
-          title: "Django",
-          style: "shadow-green-400",
-        },
-        {
-          id: 7,
-          src: mysql,
-          title: "MySQL",
-          style: "shadow-orange-400",
-        },
-        {
-          id: 8,
-          src: github,
-          title: "GitHub",
-          style: "shadow-gray-400",
-        },
-      ];
+  const techs = [
+    {
+      id: 1,
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 2,
+      src: css,
+      title: "CSS",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 3,
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 4,
+      src: reactImage,
+      title: "React",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 5,
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 6,
+      src: python,
+      title: "Python",
+      style: "shadow-yellow-400",
+    },
+    {
+      id: 7,
+      src: django,
+      title: "Django",
+      style: "shadow-green-400",
+    },
+    {
+      id: 7,
+      src: mysql,
+      title: "MySQL",
+      style: "shadow-orange-400",
+    },
+    {
+      id: 8,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
+    },
+  ];
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-full lg:h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -91,7 +91,7 @@ const Experience = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;
