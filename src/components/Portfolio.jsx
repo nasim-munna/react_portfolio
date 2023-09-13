@@ -1,28 +1,29 @@
 import React from "react";
 import dhakaShop from "../assets/portfolio/dhakaShop.png";
 import crud from "../assets/portfolio/crud.png";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import jobbe from '../assets/portfolio/jobbe.png';
+import hotel from '../assets//portfolio/hotel.png';
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import hotels from '../assets/portfolio/hotels.png';
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: dhakaShop,
+      
     },
     {
       id: 2,
-      src: reactParallax,
+      src: jobbe,
     },
     {
       id: 3,
-      src: navbar,
+      src: hotel,
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: hotels,
     },
     {
       id: 5,
@@ -36,7 +37,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full h-full text-white "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -55,12 +56,8 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
+                <a target="_blank" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" rel="noopener noreferrer" replace >Code</a>
+                <a target="_blank" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"  rel="noopener noreferrer" replace >Demo</a>
               </div>
             </div>
           ))}

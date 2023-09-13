@@ -14,21 +14,17 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          I am Md. Nasim.I am a Web & Software Developer from Dhaka, Bangladesh.
-          I have rich experience in Website Development, also I am good at
-          WordPress. I love to talk with you about our unique.
+        This is Md. Nasim, Full Stack Developer.
+        I have over 3 years of experience in the Software Development area. Throughout my career, I worked in a wide range of stacks of Software Engineering that includes Frontend, Backend and DevOps.
+        I am very passionate about my career and looking forward to growing myself in this industry by trying to convert my technical expertise and effort into a successful business.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Performance-driven and motivated software developer with 3+ years of
-          experience in participating in all phases of software development. As
-          a software developer, I collaborate with product managers, designers,
-          developers, QA, sales, and support managers throughout the product
-          life-cycle to build high-quality, user-friendly, and scalable
-          software. Experienced in managing a growing team to overcome
-          challenges and work together to beat targets.
+        My goal is to be one of the top ten programmers. Choosing Python and JavaScript as the programming language does
+        notmean that I am bound by a limitation. I want to know the programming language deeply, and I'm still trying. I love
+        innovation a lot, so I always try to discover something new.
         </p>
       </div>
     </div>

@@ -7,7 +7,7 @@ import python from "../assets/python.png";
 import django from "../assets/django.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-import mysql from "../assets/mysql.png";
+import aws from "../assets/aws.png";
 const Experience = () => {
   const techs = [
     {
@@ -54,8 +54,8 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: mysql,
-      title: "MySQL",
+      src: aws,
+      title: "AWS",
       style: "shadow-orange-400",
     },
     {
@@ -68,7 +68,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-full lg:h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-full  pt-12"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
